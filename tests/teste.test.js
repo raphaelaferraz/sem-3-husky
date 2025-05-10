@@ -1,4 +1,4 @@
-const { soma } = require('./teste');
+const { soma } = require('teste');
 
 describe('Testes da função soma', () => {
   test('soma 2 + 3 deve ser igual a 5', () => {

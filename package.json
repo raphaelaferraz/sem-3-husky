@@ -2,9 +2,9 @@
   "name": "sem-3-husky",
   "version": "1.0.0",
   "description": "Projeto de exemplo com Husky",
-  "main": "teste.js",
+  "main": "src/teste.js",
   "scripts": {
-    "build": "node teste.js",
+    "build": "node src/teste.js",
     "test": "jest",
     "lint": "eslint .",
     "prepare": "husky"
