@@ -5,7 +5,7 @@
   },
   "scripts": {
     "build": "echo 'Simulando build com sucesso!'",
-    "test": "echo 'Testes rodando com sucesso!' && exit 0",
+    "test": "echo 'Testes rodando com sucesso! Itens preparados para o push!' && exit 0",
     "teste": "node teste.js",
     "prepare": "husky"
   },

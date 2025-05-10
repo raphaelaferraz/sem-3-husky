@@ -1,1 +1,1 @@
-console.log('Teste 2 com o Husky');
+console.log('Se chegou aqui, é porque o Husky está funcionando!');
