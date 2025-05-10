@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.2"
+  },
+  "scripts": {
+    "build": "echo 'Simulando build com sucesso!'",
+    "test": "echo 'Testes rodando com sucesso!' && exit 0",
+    "teste": "node teste.js",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}
