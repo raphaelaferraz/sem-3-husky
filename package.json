@@ -1,15 +1,24 @@
 {
-  "devDependencies": {
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.2"
-  },
+  "name": "sem-3-husky",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo com Husky",
+  "main": "teste.js",
   "scripts": {
-    "build": "echo 'Simulando build com sucesso!'",
-    "test": "echo 'Testes rodando com sucesso! Itens preparados para o push!' && exit 0",
-    "teste": "node teste.js",
+    "build": "node teste.js",
+    "test": "jest",
+    "lint": "eslint .",
     "prepare": "husky"
   },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.js": [
+      "eslint --fix",
+      "jest --bail --findRelatedTests"
+    ]
   }
 }
