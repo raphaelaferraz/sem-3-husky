@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(brew --prefix)/bin/husky.sh"
+
+npm test
